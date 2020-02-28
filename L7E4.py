@@ -1,7 +1,7 @@
-def printlist(alist):
+def printlist(title, alist):
     print (title)
-    for i in range(len(alist)):
-        print (alist[i])
-title=input("What is the title")
-somelist=[input("What is your list?")]
-printlist(somelist)
+    for i in alist:
+        print (i)
+somelist=[1,45,87,'go']
+title="The Title"
+printlist(title,somelist)
